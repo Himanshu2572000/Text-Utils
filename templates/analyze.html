@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>AnalyzedText</title>
+
+    <style>
+      .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: black;
+        color: white;
+        text-align: center;
+        display: block;
+     }
+     </style>
+
+  </head>
+  <body>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Text Utils</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="/index" method="post">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" onclick="AboutFunction()">About</a>
+            </li>
+
+            <script>
+              function AboutFunction() {
+                alert("'Text Utils' Is A Web Tool To Assist Developers And Other People In Daily Tasks By Providing Tools For Manipulating Text Data.");
+              }
+              </script>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#" onclick="ContactFunction()">Contact Us</a>
+            </li>
+
+            <script>
+              function ContactFunction() {
+                alert("Developer : Himanshu Raj                                                                           Mob : 9155189196                                                                     hms.raj2572000@gmail.com");
+              }
+              </script>
+
+          </ul>
+          <span class="navbar-text">
+            <font color="white">HOPE We'll Help You!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>
+          </span>
+          
+        </div>
+      </nav>
+      
+    <div class="container">
+      <div class="alert alert-success" role="alert">
+        <h1 class="alert-heading"><b>Result. . .</b></h1>
+        <hr>
+        <pre><font  color="blue"class="text" size="3">{{ analyzed_text }}</font></pre>
+        <hr>
+        <p class="mb-0">Thanks For Coming Here. . .&#128522;</p>
+      </div>
+    </div>
+
+
+<!-- Footer-->
+<footer class="footer">
+  <div class="container">
+    <span class="text-light">© 2020 Textutils.in </span>
+  </div>
+</footer>
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
